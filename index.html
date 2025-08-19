@@ -4,34 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <link rel="stylesheet" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header_wrap">
-            <div class="header_logo">Panto
-
+          <input type="checkbox" id="checkbox" />
+          <label class="burger" for="checkbox">
+            <div class="line t"></div>
+            <div class="line m"></div>
+            <div class="line b"></div>
+          </label>
+          <a href="/" class="header_logo">Panto </a>
+          <nav class="header_nav">
+            <ul class="header_menu">
+              <li class="header_item">
+                <a href="" class="header_link">Furniture</a>
+                <span class="arrow">&#9662;</span>
+              </li>
+              <li class="header_item">
+                <a href="" class="header_link">Shop</a>
+              </li>
+              <li class="header_item">
+                <a href="" class="header_link">About-Us</a>
+              </li>
+              <li class="header_item">
+                <a href="" class="header_link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header_cart">
+            <div class="header_cart_icon">
+              <i class="fa-solid fa-bag-shopping"></i>
             </div>
-            <nav class="header_nav">
-                <menu class="header_menu"> 
-                    <li class="header_item"><a href="" class="header_link">Furniture</a> <span class="arrow">&#9662;</span></li>
-                    <li class="header_item"><a href="" class="header_link">Shop</a></li>
-                    <li class="header_item"><a href="" class="header_link">About-Us</a></li>
-                    <li class="header_item"><a href="" class="header_link">Contact</a></li>
-                </menu>
-            </nav>
-            <div class="header_cart">
-              <div class="header_cart_icon">
-                <i class="fa-solid fa-bag-shopping"></i>
-              </div>
-              <div class="header_cart_count">0</div>
-            </div>
+            <div class="header_cart_count">0</div>
+          </div>
         </div>
       </div>
     </header>
@@ -39,13 +66,23 @@
       <section class="hero">
         <div class="container">
           <div class="hero_wrap">
-            <h1 class="hero_title">Make your interior more
-minimalistic & modern</h1>
-<p class="hero_text">Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
-<form class="hero_form">
-  <input class="hero_input" type="text" placeholder="Search furniture">
-  <button class="hero_button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-</form>
+            <h1 class="hero_title">
+              Make your interior more minimalistic & modern
+            </h1>
+            <p class="hero_text">
+              Turn your room with panto into a lot more minimalist and modern
+              with ease and speed
+            </p>
+            <form class="hero_form">
+              <input
+                class="hero_input"
+                type="text"
+                placeholder="Search furniture"
+              />
+              <button class="hero_button" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
           </div>
         </div>
       </section>
@@ -56,18 +93,36 @@ minimalistic & modern</h1>
             <div class="benefits_block">
               <div class="benefits_item">
                 <h3 class="benefits_name">Luxury facilities</h3>
-                <p class="benefits_text">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</p>
-                <a href="" class="benefits_link"><span>More Info</span><i class="fa-solid fa-arrow-right-long"></i></a>
+                <p class="benefits_text">
+                  The advantage of hiring a workspace with us is that givees you
+                  comfortable service and all-around facilities.
+                </p>
+                <a href="" class="benefits_link"
+                  ><span>More Info</span
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></a>
               </div>
               <div class="benefits_item">
                 <h3 class="benefits_name">Affordable Price</h3>
-                <p class="benefits_text">You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.</p>
-                <a href="" class="benefits_link"><span>More Info</span><i class="fa-solid fa-arrow-right-long"></i></a>
+                <p class="benefits_text">
+                  You can get a workspace of the highst quality at an affordable
+                  price and still enjoy the facilities that are oly here.
+                </p>
+                <a href="" class="benefits_link"
+                  ><span>More Info</span
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></a>
               </div>
               <div class="benefits_item">
                 <h3 class="benefits_name">Many Choices</h3>
-                <p class="benefits_text">We provide many unique work space choices so that you can choose the workspace to your liking.</p>
-                <a href="" class="benefits_link"><span>More Info</span><i class="fa-solid fa-arrow-right-long"></i></a>
+                <p class="benefits_text">
+                  We provide many unique work space choices so that you can
+                  choose the workspace to your liking.
+                </p>
+                <a href="" class="benefits_link"
+                  ><span>More Info</span
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></a>
               </div>
             </div>
           </div>
@@ -76,41 +131,65 @@ minimalistic & modern</h1>
       <section class="best">
         <div class="container">
           <div class="best_wrap">
-            <h2 class="bast_heading">Best Selling Product </h2>
+            <h2 class="bast_heading">Best Selling Product</h2>
             <div class="best_slider">
               <div class="best_item">
-                <div class="best_img"><img src="./img/chair1.png" alt=""></div>
+                <div class="best_img">
+                  <img src="./img/chair1.png" alt="" />
+                </div>
                 <div class="best_info">
                   <div class="best_subtitle">Chair</div>
                   <div class="best_heading">Sakarias Armchair</div>
                   <div class="best_rate">
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                   </div>
                   <div class="best_buy">
                     <div class="best_price">
                       <small>$</small>
                       <span>358</span>
                     </div>
-                    
+
                     <div class="best_button">+</div>
                   </div>
                 </div>
               </div>
               <div class="best_item">
-                <div class="best_img"><img src="./img/chair2.png" alt=""></div>
+                <div class="best_img">
+                  <img src="./img/chair2.png" alt="" />
+                </div>
                 <div class="best_info">
                   <div class="best_subtitle">Chair</div>
                   <div class="best_heading">Baltar Chair</div>
                   <div class="best_rate">
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                   </div>
                   <div class="best_price">
                     <small>$</small>
@@ -120,40 +199,64 @@ minimalistic & modern</h1>
                 </div>
               </div>
               <div class="best_item">
-                <div class="best_img"><img src="./img/chair4.png" alt=""></div>
+                <div class="best_img">
+                  <img src="./img/chair4.png" alt="" />
+                </div>
                 <div class="best_info">
                   <div class="best_subtitle">Chair</div>
                   <div class="best_heading">Anjay Chair</div>
                   <div class="best_rate">
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                   </div>
                   <div class="best_price">
                     <small>$</small>
                     <span>358</span>
-                     </div>
+                  </div>
                   <div class="best_button">+</div>
                 </div>
               </div>
               <div class="best_item">
-                <div class="best_img"><img src="./img/chair3.png" alt=""></div>
+                <div class="best_img">
+                  <img src="./img/chair3.png" alt="" />
+                </div>
                 <div class="best_info">
                   <div class="best_subtitle">Chair</div>
                   <div class="best_heading">Nyantuy Chair</div>
                   <div class="best_rate">
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
-                    <div class="best_star"><i class="fa-solid fa-star"></i></div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="best_star">
+                      <i class="fa-solid fa-star"></i>
+                    </div>
                   </div>
-                 <div class="best_price">
-                  <small>$</small>
-                  <span>358</span>
-                 </div>
+                  <div class="best_price">
+                    <small>$</small>
+                    <span>358</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -161,72 +264,174 @@ minimalistic & modern</h1>
         </div>
       </section>
 
-        <section class="about">
-          <div class="container">
-            <div class="about_wrap">
-              <div class="about_block">
-            <div class="about_img">
-              <img src="./img/Experiences.png" alt="">
+      <section class="about">
+        <div class="container">
+          <div class="about_wrap">
+            <div class="about_block">
+              <div class="about_img">
+                <img src="./img/Experiences.png" alt="" />
+              </div>
+              <div class="about_info">
+                <h3 class="about_subtitle">experiences</h3>
+                <h2 class="about_title">We provide you the best experience</h2>
+                <p class="about_text">
+                  You don’t have to worry about the result because all of these
+                  interiors are made by people who are professionals in their
+                  fields with an elegant and lucurious style and with premium
+                  quality materials
+                </p>
+                <a class="benefits_link"
+                  ><span>More Info</span
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
             </div>
-            <div class="about_info">
-              <h3 class="about_subtitle">experiences</h3>
-              <h2 class="about_title">We provide you the best experience</h2>
-              <p class="about_text">You don’t have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials</p>
-              <a class="benefits_link"><span>More Info</span><i class="fa-solid fa-arrow-right-long"></i></a>
-            </div>
-          </div>
-                 <div class="about_block">
-                  <div class="about_img">
-                    <img src="./img/furn1.png " alt="">
-                   
-                  </div>
-                  <div class="about_info">
-                    <h3 class="about_subtitle">Materials</h3>
-                    <h2 class="about_title">Very serious materials for making furniture</h2>
-                    <p class="about_text">Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price</p>
+            <div class="about_block">
+              <div class="about_img">
+                <img src="./img/furn1.png " alt="" />
+              </div>
+              <div class="about_info">
+                <h3 class="about_subtitle">Materials</h3>
+                <h2 class="about_title">
+                  Very serious materials for making furniture
+                </h2>
+                <p class="about_text">
+                  Because panto was very serious about designing furniture for
+                  our environment, using a very expensive and famous capital but
+                  at a relatively low price
+                </p>
 
-                    <a class="benefits_link"><span>More Info</span><i class="fa-solid fa-arrow-right-long"></i></a>
-                  </div>
-                 </div>
+                <a class="benefits_link"
+                  ><span>More Info</span
+                  ><i class="fa-solid fa-arrow-right-long"></i
+                ></a>
+              </div>
+            </div>
           </div>
-        </section>
-        <section class="shop">
-          <div class="container">
-            <div class="shop_wrap">
-              <h3 class="shop_subtitle"></h3>
-              <h2 class="shop_title"></h2>
-              <div class="shop_list">
-                <div class="shop_card">
-                  <div class="shop_info">
-                    <div class="shop_img"><img src="./img/BangApin.png" alt=""></div>
-                    <h4 class="shop_name">Bang Upin</h4>
-                    <h5 class="shop_prof">Pedagang Asongan</h5>
-                    <div class="shop_text">“Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“</div>
-                    <div class="shop_rate"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+        </div>
+      </section>
+      <section class="shop">
+        <div class="container">
+          <div class="shop_wrap">
+            <h3 class="shop_subtitle"></h3>
+            <h2 class="shop_title"></h2>
+            <div class="shop_list">
+              <div class="shop_card">
+                <div class="shop_info">
+                  <div class="shop_img">
+                    <img src="./img/BangApin.png" alt="" />
+                  </div>
+                  <h4 class="shop_name">Bang Upin</h4>
+                  <h5 class="shop_prof">Pedagang Asongan</h5>
+                  <div class="shop_text">
+                    “Terimakasih banyak, kini ruanganku menjadi lebih mewah dan
+                    terlihat mahal“
+                  </div>
+                  <div class="shop_rate">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
                   </div>
                 </div>
-                <div class="shop_card">
-                  <div class="shop_info">
-                    <div class="shop_img"><img src="./img/ibuksukjan.png" alt=""></div>
-                    <h4 class="shop_name">Ibuk Sukijan</h4>
-                    <h5 class="shop_prof">Ibu Rumah Tangga</h5>
-                    <div class="shop_text">“Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“</div>
-                    <div class="shop_rate"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              </div>
+              <div class="shop_card">
+                <div class="shop_info">
+                  <div class="shop_img">
+                    <img src="./img/ibuksukjan.png" alt="" />
+                  </div>
+                  <h4 class="shop_name">Ibuk Sukijan</h4>
+                  <h5 class="shop_prof">Ibu Rumah Tangga</h5>
+                  <div class="shop_text">
+                    “Makasih Panto, aku sekarang berasa tinggal di apartment
+                    karena barang-barang yang terlihat mewah“
+                  </div>
+                  <div class="shop_rate">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
                   </div>
                 </div>
-                <div class="shop_card">
-                  <div class="shop_info">
-                    <div class="shop_img"><img src="./img/mbokina.png" alt=""></div>
-                    <h4 class="shop_name">Mpok Ina</h4>
-                    <h5 class="shop_prof">Karyawan Swasta</h5>
-                    <div class="shop_text">“Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“</div>
-                    <div class="shop_rate"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+              </div>
+              <div class="shop_card">
+                <div class="shop_info">
+                  <div class="shop_img">
+                    <img src="./img/mbokina.png" alt="" />
+                  </div>
+                  <h4 class="shop_name">Mpok Ina</h4>
+                  <h5 class="shop_prof">Karyawan Swasta</h5>
+                  <div class="shop_text">
+                    “Sangat terjangkau untuk kantong saya yang tidak terlalu
+                    banyak“
+                  </div>
+                  <div class="shop_rate">
+                    <i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i
+                    ><i class="fa-solid fa-star"></i>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
+      <section class="end">
+        <div class="container">
+          <div class="end_wrap">
+            <div class="end_titls">
+              <div class="end_tit">
+                <h2 class="end_title">Panto</h2>
+                <p class="end_subtitle">
+                  The advantage of hiring a workspace <br />
+                  with us is that givees you comfortable service <br />
+                  and all-around facilities.
+                </p>
+              </div>
+              <div class="end_info">
+                <div class="end_services">
+                  <h5 class="end_serv">Services</h5>
+                  <p class="end_subtitle">Email Marketing</p>
+                  <p class="end_subtitle">Campaigns</p>
+                  <p class="end_subtitle">Branding</p>
+                </div>
+                <div class="end_furniture">
+                  <h5 class="end_serv">Furniture</h5>
+                  <p class="end_subtitle">Beds</p>
+                  <p class="end_subtitle">Chair</p>
+                  <p class="end_subtitle">All</p>
+                </div>
+                <div class="end_follow">
+                  <h5 class="end_serv">Follow Us</h5>
+                  <div class="end_facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                    <p>Facebook</p>
+                  </div>
+                  <div class="end_twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                    <p>Twitter</p>
+                  </div>
+                  <div class="end_instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p>Instagram</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="end_end">
+              <p class="end_text">Copyright © 2021</p>
+              <div class="end_team">
+                <p class="end_subtitle">Terms & Conditions</p>
+                <p class="end_subtitle">Privacy Policy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
